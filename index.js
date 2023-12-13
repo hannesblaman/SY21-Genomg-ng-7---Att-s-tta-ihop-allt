@@ -20,6 +20,8 @@ async function handleRequest(request, response) {
 		&& pathSegments[0] === 'static'
 		&& request.method === 'GET') {
 
+			// hej hej albin
+
 			staticFileHandler.handleStaticFileRoute(pathSegments, response);
 			return;
 
